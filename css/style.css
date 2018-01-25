@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+*{margin:0;
+padding:0;
+box-sizing:border-box;
+-webkit-box-sizing:border-box;
+-moz-box-sizing:border-box;
+}
+body {
+	font-family: 'Lato', sans-serif;
+	color:#2d3950;
+}
+header{
+	background: url(../images/banner.jpg);
+	height:100vh;
+	position: relative;
+	background-color: #3b434c;
+}
+.container{
+	width:1000px;
+	margin:0 auto;
+	margin-top: 10px;
+
+}
+.logo{
+	width:20%;
+	float:left;
+	margin-top: 30px;
+	position: absolute;
+}
+.nav{
+	width:80%;
+	float:left;
+	margin-top: 30px;
+	position: absolute;
+}
+.nav ul{
+	text-align: right;
+	
+}
+.nav ul li{
+	list-style: none;
+	display: inline-block;
+	margin-right: 10px;
+}
+.nav ul li:hover{
+	background-color:#f7600e;
+	font-weight:bold;
+	transition: 1s all ease;
+	}
+.nav ul li a{
+	display:block;
+	text-decoration: none;
+	color:#ffffff;
+	text-transform: uppercase;
+	padding:10px 20px;
+	
+
+}
+.header_content{
+	text-align: center;
+	color:#fff;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+}
+.header_content h1{
+
+}
+.header_content span{
+	color:#f7600e;
+}
+.header_content h1:last-word{
+	color:red;
+}
+.header_content p{
+	margin-top: 12px;
+	margin-bottom: 14px;
+}
+.header_content a{
+	color:#fff;
+	border: 1px solid #f7600e;
+	text-transform: uppercase;
+	padding:10px 15px;
+	text-decoration: none;
+	margin-top: 30px;
+	display:inline-block;
+	background-color:#f7600e;
+	border-radius: 5px;
+}
+.header_content a:hover{
+	transition: 1s all ease;
+	font-weight:bold;
+	padding: 10px 20px;
+}
+.arrow{
+	color:#fff;
+	font-size: 20px;
+	position:absolute;
+	bottom: 40px;
+	left:50%;
+
+	transform: translatex(-50%);
+	border-radius: 50px;
+	border:1px solid #fff;
+	padding: 3px 3px;
+}
+.work{
+}
+.container{}
+.heading{
+	margin: 0 auto;
+	text-align: center;
+	margin: 50px 0;
+	color:#fff;
+
+}
+.heading h1{
+	color:#2d3950;
+
+}
+.heading span{
+	color:#f7600e;
+}
+
+.feature{
+	
+}
+.container{
+	
+}
+.feature{
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
+.feature_box{
+	width: 32%;
+	float:left;
+	margin: 5px 5px;
+	background-color: #f7600e;
+}
+.feature_box img{
+	width: 100%;
+	opacity: 1;
+}
+.feature_box img:hover{
+	border-radius: 15px;
+	opacity: 0.7;
+	transition: 1s all ease;
+}
+.show{
+	text-decoration: none;
+	text-align: center;
+	color:#3b434c;
+	display:inline-block;
+	border: 1px solid #3b434c;
+	padding:10px 12px;
+	margin-left:45%;
+	margin-top:60px;
+	border-radius: 5px;
+
+}
+.show:hover{
+	padding:10px 15px;
+	background-color: #f7600e;
+	font-weight: bold;
+	transition: 1s all ease;
+}
+.about{
+	height: 600px;
+}
+.template{
+}
+.teamp{
+	width: 23%;
+	float:left;
+	text-align: center;
+	margin: 40px 10px;
+	opacity: 1;
+}
+.teamp img{
+	width: 235px;
+	height:282px;
+	
+}
+.teamp:hover{
+ 	opacity: 0.7;
+ 	transition: 1s all ease;
+}
+.teamp h2{
+	margin-top: 10px;
+}
+.teamp p{
+	margin-top: 10px;
+}
+.contant_section{
+	background: url(../images/footer.jpeg);
+	height:100vh;
+	position:relative;
+}
+.end_heading{
+	position:absolute;
+	transform: translateX(270px);
+	margin: 0 auto;
+	text-align: center;
+	margin: 50px 0;
+	color:#fff;
+
+}
+.end_heading span{
+	color:#f7600e;
+}
+.overlay{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #3b434c;
+	opacity: 0.7;
+}
+
+.forming {
+	color:#fff;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+}
+.forming input{
+	width:300px;
+	padding: 20px 20px;
+	border-radius: 10px;
+	margin-bottom: 20px;
+	margin-left:0;
+}
+.forming textarea{
+	border:1px solid #999999;
+	padding: 10px;
+	margin-bottom: 5px;
+	border-radius:5px;
+	width: 100%;
+}
+.forming a{
+	text-decoration: none;
+	color:#fff;
+	margin-top: 20px;
+	background-color: #f7600e;
+	padding:20px 30px;
+	display:inline-block;
+	border-radius:10px;
+}
+.forming a:hover{
+	font-weight: bold;
+	transition: 1s all ease;
+}
+.hire{
+	text-decoration: none;
+	color:black;
+	margin-left:0;
+}
+footer{
+	padding: 30px 0;
+	background:#3b434c;
+	padding-bottom: :10px;
+}
+.lay{
+width: 100%;
+height: 100%;
+z-index: 1;
+background: #2b3035;
+opacity: 0.6;
+}
+.copy_left{
+	float:left;
+	padding:5px 10px;
+	color:#fff;
+}
+.copy_right{
+	float:right;
+	padding:5px 10px;
+	color:#fff;
+}
